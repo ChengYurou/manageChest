@@ -1,0 +1,30 @@
+<% include header.html %>
+<ul>
+    <li>collection[0].name</li>
+    <li>collection[1].name</li>
+    <li>collection[2].name</li>
+    <li>collection[3].name</li>
+</ul>
+<div id="myCarousel0" class="carousel slide">
+
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel0" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel0" data-slide-to="1"></li>
+    </ol>
+
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="images[0].name" alt="First slide">
+            <div class="carousel-caption"><h3>你总说梦想遥不可及，可你却从不早起。</h3></div>
+        </div>
+        <div class="item">
+            <img src="images[0].name" alt="Second slide">
+        </div>
+    </div>
+
+    <a class="carousel-control left" href="#myCarousel0"
+       data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#myCarousel0"
+       data-slide="next">&rsaquo;</a>
+</div>
+<% include footer.html %>
